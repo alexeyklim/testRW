@@ -1,3 +1,4 @@
 rocketwash.properties
 chromedriver.exe
 /.idea
+/target
