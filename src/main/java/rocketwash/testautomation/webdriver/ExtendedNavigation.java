@@ -1,4 +1,4 @@
-package webdriver;
+package rocketwash.testautomation.webdriver;
 
 import org.openqa.selenium.WebDriver;
 

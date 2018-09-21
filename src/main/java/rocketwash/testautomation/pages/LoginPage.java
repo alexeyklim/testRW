@@ -1,13 +1,13 @@
-package pages;
+package rocketwash.testautomation.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
-import pageobjectutils.Page;
+import rocketwash.testautomation.pageobjectutils.Page;
 import ru.yandex.qatools.htmlelements.element.Link;
 import ru.yandex.qatools.htmlelements.element.TextInput;
-import webdriver.ExtendedWebDriver;
+import rocketwash.testautomation.webdriver.ExtendedWebDriver;
 
 @Component
 @Scope("prototype")

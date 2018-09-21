@@ -1,9 +1,10 @@
-package webdriver;
+package rocketwash.testautomation.webdriver;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.internal.WrapsDriver;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Set;
@@ -13,7 +14,7 @@ import java.util.Set;
      *  For easy way of extending base func
      *
     */
-
+@Component
 public class ExtendedWebDriver implements WebDriver, WrapsDriver {
 
     protected WebDriver webDriver;

@@ -1,9 +1,9 @@
-package pages;
+package rocketwash.testautomation.pages;
 
 import org.openqa.selenium.support.FindBy;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
-import pageobjectutils.Page;
+import rocketwash.testautomation.pageobjectutils.Page;
 import ru.yandex.qatools.htmlelements.element.Button;
 
 @Component

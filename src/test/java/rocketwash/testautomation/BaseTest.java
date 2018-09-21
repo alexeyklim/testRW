@@ -1,6 +1,6 @@
 package rocketwash.testautomation;
 
-import config.BaseConfig;
+import rocketwash.testautomation.config.BaseConfig;
 import org.openqa.selenium.WebDriver;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
@@ -8,8 +8,8 @@ import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import ru.qatools.properties.PropertyLoader;
-import webdriver.ExtendedWebDriver;
-import webdriver.ExtendedWebDriverFactoryBean;
+import rocketwash.testautomation.webdriver.ExtendedWebDriver;
+import rocketwash.testautomation.webdriver.ExtendedWebDriverFactoryBean;
 
 import java.util.concurrent.TimeUnit;
 

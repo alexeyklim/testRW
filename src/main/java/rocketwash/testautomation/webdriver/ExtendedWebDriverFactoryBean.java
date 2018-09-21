@@ -1,4 +1,4 @@
-package webdriver;
+package rocketwash.testautomation.webdriver;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -8,9 +8,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.safari.SafariOptions;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.AbstractFactoryBean;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 import java.io.File;
@@ -20,6 +18,7 @@ import java.util.Optional;
 /**
  * Factory Bean for ExtendedWebDriver which encapsulates its custom construction logic
  */
+@Component
 public class ExtendedWebDriverFactoryBean extends AbstractFactoryBean<WebDriver> {
 
     private static final String PLATFORM = "platform";

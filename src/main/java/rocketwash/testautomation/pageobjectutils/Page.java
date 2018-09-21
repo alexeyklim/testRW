@@ -1,14 +1,14 @@
-package pageobjectutils;
+package rocketwash.testautomation.pageobjectutils;
 
 import org.openqa.selenium.support.PageFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import ru.yandex.qatools.htmlelements.loader.decorator.HtmlElementDecorator;
-import webdriver.ExtendedWebDriver;
+import rocketwash.testautomation.webdriver.ExtendedWebDriver;
 
 import javax.annotation.PostConstruct;
 
-@Component
+
 public class Page {
 
     @Autowired

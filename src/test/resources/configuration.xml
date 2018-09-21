@@ -7,8 +7,8 @@
         http://www.springframework.org/schema/context/spring-context-4.2.xsd">
     <context:component-scan base-package="rocketwash.testautomation"/>
 
-    <bean id="springTest" class="webdriver.ExtendedWebDriverFactoryBean" />
-    <bean id="loginPage" class="pages.LoginPage" scope="prototype" init-method="initElements"/>
-    <bean id="homePage" class="pages.HomePage" scope="prototype" init-method="initElements"/>
-    <bean id="basePage" class="pageobjectutils.Page" scope="prototype" init-method="initElements"/>
+    <!--<bean id="springTest" class="rocketwash.testautomation.*" />-->
+    <!--<bean id="loginPage" class="rocketwash.testautomation.pages.LoginPage" scope="prototype" init-method="initElements"/>-->
+    <!--<bean id="homePage" class="rocketwash.testautomation.pages.HomePage" scope="prototype" init-method="initElements"/>-->
+    <!--<bean id="basePage" class="rocketwash.testautomation.pageobjectutils.Page" scope="prototype" init-method="initElements"/>-->
 </beans>
